@@ -18,6 +18,9 @@ I crearted a jar file called thaoFibonacciService.jar located in the deployedJar
 To run the server (which will discover the web service deployed to it), you need java in your path.  Run it as follows:
 java -jar thaoFibonacciService.jar
 
+- To Run:
+Open any browser on the same computer where you launched the HTTP Server (the web service curently only listens locally for now but that can easily be changed) 
+Go to link: http://localhost:9999/fibonaccirest/fibonacci/0
+The above is like sending in a 0 into the web service and it will return 0 because that is the sequence for this input.
+If you go to http://localhost:9999/fibonaccirest/fibonacci/5 it will output the sequence for that number
 
-
-- 
